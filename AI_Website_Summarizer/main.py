@@ -55,7 +55,7 @@ def summarize(url):
     messages = messages_for(website)
     
     response = ollama.chat(
-        model = "llama3.2:1b",
+        model = "MODEL",
         messages = messages
     )
 
